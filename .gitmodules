@@ -1,0 +1,6 @@
+[submodule "themes/gokarna"]
+	path = themes/gokarna
+	url = git@github.com:526avijitgupta/gokarna.git
+[submodule "public"]
+	path = public
+	url = git@github.com:MacKarp/mackarp.github.io.git
