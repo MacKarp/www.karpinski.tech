@@ -1,6 +1,6 @@
 baseURL = "https://www.karpinski.tech/"
 defaultContentLanguage = "pl"
-languageCode = "pl"
+languageCode = "pl-PL"
 
 title = "My New Hugo Site"
 
@@ -8,6 +8,9 @@ theme = "gokarna"
 
 # Automatically generate robots.txt
 enableRobotsTXT = true
+
+[params]
+  dateFormat = "2 January 2006"
 
 [menu]
   [[menu.main]]
