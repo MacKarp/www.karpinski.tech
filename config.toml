@@ -9,8 +9,11 @@ theme = "gokarna"
 # Automatically generate robots.txt
 enableRobotsTXT = true
 
+enableEmoji = true
+
 [params]
   dateFormat = "2 January 2006"
+
 
 [menu]
   [[menu.main]]
@@ -26,14 +29,14 @@ enableRobotsTXT = true
     post = ""
 
     # Display name
-    name = "Posts"
+    name = "Posty"
 
     # Weights are used to determine the ordering
     weight = 1
 
   [[menu.main]]
     identifier = "tags"
-    name = "Tags"
+    name = "Tagi"
     url = "/tags/"
     weight = 2
     
