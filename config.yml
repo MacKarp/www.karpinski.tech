@@ -1,0 +1,66 @@
+baseURL: https://www.karpinski.tech/
+defaultContentLanguage: pl
+languageCode: pl-PL
+title: "Maciej Karpiński"
+theme: "PaperMod"
+pluralizeListTitles: false
+
+
+params:
+  defaultTheme: auto
+  enableEmoji: true
+  enableRobotsTXT: true
+  ShowReadingTime: true
+  env: production
+  dateFormat: "Monday 2 January 2006"
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+
+
+  profileMode:
+      enabled: true
+      title: "informatyk 👨🏼‍💻 miłośnik fantastyki 🧙🏼‍♂️" 
+      subtitle: "Znajdziesz mnie również:"
+      imageUrl: "images/avatar.jpg"
+      imageTitle: "To ja" 
+      imageWidth: 400 
+      imageHeight: 457
+
+  socialIcons:
+      - name: "GitHub"
+        url:  "https://github.com/MacKarp"
+      - name: "LinkedIn"
+        url:  "https://www.linkedin.com/in/maciej-karpi%C5%84ski-a9613a199/"
+      - name: "Facebook"
+        url:  "https://www.facebook.com/maciej.karpinski.39"
+      - name: "mastodon"
+        url:  "https://101010.pl/@karpiu"
+      - name: "Spotify"
+        url:  "https://open.spotify.com/user/karpfly"
+      - name: "LubimyCzytac"
+        url:  "https://lubimyczytac.pl/profil/188030/Maciej"
+      - name: "Filmweb"
+        url:  "https://www.filmweb.pl/user/Karpfly"
+      - name: "email"
+        url:  "mailto:kontakt@karpinski.tech"
+
+menu:
+  main:
+    - identifier: projects
+      name: Projekty
+      url: /projekty/
+      weight: 10
+    - identifier: tagi
+      name: Tagi
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Wyszukaj
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
