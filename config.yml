@@ -21,7 +21,7 @@ params:
       enabled: true
       title: "informatyk 👨🏼‍💻 miłośnik fantastyki 🧙🏼‍♂️" 
       subtitle: "Znajdziesz mnie również:"
-      imageUrl: "images/avatar.jpg"
+      imageUrl: "avatar.jpg"
       imageTitle: "To ja" 
       imageWidth: 400 
       imageHeight: 457
