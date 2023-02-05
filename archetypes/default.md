@@ -1,14 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-
 date: {{ .Date }}
-url: /{{ .Name }}/
-image: images/2023-thumbs/{{ .Name }}.jpg
-categories:
+tags:
   - Linux
   - Windows
   - Networking
-tags:
-  - Ubuntu
+  - WWW
 draft: true
 ---
