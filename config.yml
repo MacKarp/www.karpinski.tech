@@ -15,11 +15,13 @@ params:
   dateFormat: "Monday 2 January 2006"
   ShowBreadCrumbs: true
   ShowWordCount: true
+  enableGitInfo: true
+  ShowToc: true
 
 
   profileMode:
       enabled: true
-      title: "informatyk 👨🏼‍💻 miłośnik fantastyki 🧙🏼‍♂️" 
+      title: "informatyk 👨‍💻 miłośnik fantastyki 🧙‍♂️" 
       subtitle: "Znajdziesz mnie również:"
       imageUrl: "avatar.jpg"
       imageTitle: "To ja" 
