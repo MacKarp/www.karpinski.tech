@@ -17,6 +17,8 @@ params:
   ShowWordCount: true
   enableGitInfo: true
   ShowToc: true
+  Description: "Strona osobista Macieja Karpińskiego!"
+  author: "Maciej Karpiński"
 
 
   profileMode:

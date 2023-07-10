@@ -5,4 +5,5 @@ layout: "search" # is necessary
 # description: "Description for Search"
 summary: "search"
 placeholder: "Szukaj na stronie..."
+description: "Wyszukiwarka"
 ---
