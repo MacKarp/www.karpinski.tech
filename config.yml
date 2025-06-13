@@ -19,7 +19,18 @@ params:
   ShowToc: true
   Description: "Strona osobista Macieja Karpińskiego!"
   author: "Maciej Karpiński"
+  editURL: "https://github.com/MacKarp/www.karpinski.tech/edit/main/content"
+  ShowCodeCopyButtons: true
+  keywords: ["Maciej Karpiński", "informatyk", "sysadmin", "IT infrastructure", "Linux", "DevOps", "Hugo", "blog", "portfolio"]
 
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
   profileMode:
       enabled: true
@@ -30,23 +41,37 @@ params:
       imageWidth: 400 
       imageHeight: 457
 
+  social:
+    mastodon: "https://101010.pl/@karpiu"
+    github: "MacKarp"
+
   socialIcons:
-      - name: "GitHub"
-        url:  "https://github.com/MacKarp"
-      - name: "LinkedIn"
-        url:  "https://www.linkedin.com/in/maciej-karpi%C5%84ski-a9613a199/"
-      - name: "Facebook"
-        url:  "https://www.facebook.com/maciej.karpinski.39"
-      - name: "mastodon"
-        url:  "https://101010.pl/@karpiu"
-      - name: "Spotify"
-        url:  "https://open.spotify.com/user/karpfly"
-      - name: "LubimyCzytac"
-        url:  "https://lubimyczytac.pl/profil/188030/Maciej"
-      - name: "Filmweb"
-        url:  "https://www.filmweb.pl/user/Karpfly"
-      - name: "email"
-        url:  "mailto:kontakt@karpinski.tech"
+    - name: "GitHub"
+      url: "https://github.com/MacKarp"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/maciej-karpi%C5%84ski-a9613a199/"
+    - name: "email"
+      url: "mailto:kontakt@karpinski.tech"
+    - name: "pgpkey"
+      url: "https://karpinski.tech/pgp.asc"
+    - name: "exercism"
+      url: "https://exercism.org/profiles/MacKarp"
+    - name: "mastodon"
+      url: "https://101010.pl/@karpiu"
+    - name: "Facebook"
+      url: "https://www.facebook.com/maciej.karpinski.39"
+    - name: "Spotify"
+      url: "https://open.spotify.com/user/karpfly"
+    - name: "LubimyCzytac"
+      url: "https://lubimyczytac.pl/profil/188030/Maciej"
+    - name: "Filmweb"
+      url: "https://www.filmweb.pl/user/Karpfly"
+    - name: "steam"
+      url: "https://steamcommunity.com/profiles/76561198017121374/"
+
+
+  assets:
+    socialPreview: "images/social-preview.png"
 
 menu:
   main:
