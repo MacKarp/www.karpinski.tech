@@ -53,7 +53,7 @@ params:
     - name: "email"
       url: "mailto:kontakt@karpinski.tech"
     - name: "pgpkey"
-      url: "https://karpinski.tech/pgp.asc"
+      url: "https://karpinski.tech/pgp/maciej-main.asc"
     - name: "exercism"
       url: "https://exercism.org/profiles/MacKarp"
     - name: "mastodon"
