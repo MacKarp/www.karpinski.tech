@@ -5,11 +5,11 @@ title: "Maciej Karpiński"
 theme: "PaperMod"
 pluralizeListTitles: false
 
+enableRobotsTXT: true
 
 params:
   defaultTheme: auto
   enableEmoji: true
-  enableRobotsTXT: true
   ShowReadingTime: true
   env: production
   dateFormat: "Monday 2 January 2006"
