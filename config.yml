@@ -22,10 +22,9 @@ params:
   editURL: "https://github.com/MacKarp/www.karpinski.tech/edit/main/content"
   ShowCodeCopyButtons: true
   keywords: ["Maciej Karpiński", "informatyk", "sysadmin", "IT infrastructure", "Linux", "DevOps", "Hugo", "blog", "portfolio"]
-
-analytics:
-  google:
-    SiteVerificationTag: "G-E8MXQGLCDP"
+  analytics:
+    google:
+      SiteVerificationTag: "G-E8MXQGLCDP"
 
   fuseOpts:
     isCaseSensitive: false
