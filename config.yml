@@ -23,6 +23,10 @@ params:
   ShowCodeCopyButtons: true
   keywords: ["Maciej Karpiński", "informatyk", "sysadmin", "IT infrastructure", "Linux", "DevOps", "Hugo", "blog", "portfolio"]
 
+analytics:
+  google:
+    SiteVerificationTag: "G-E8MXQGLCDP"
+
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
